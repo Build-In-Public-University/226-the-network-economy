@@ -1,0 +1,460 @@
+[
+  {
+    "id": "D1",
+    "label": "Capitalism is contested and definitionally plural",
+    "family": "definition",
+    "kind": "diagnostic",
+    "status": "framing",
+    "source_lines": [
+      9,
+      11,
+      13
+    ],
+    "text": "The entry treats capitalism as a disputed concept with competing economic, social-order, and disciplinary definitions.",
+    "supports": [
+      "M1",
+      "I1",
+      "P1"
+    ],
+    "challenges": [],
+    "assumptions": [
+      "The entry is selective and aimed at normative philosophy",
+      "Different definitions may not describe the same object"
+    ],
+    "falsifier": "Show that the alleged definitions converge on one necessary and sufficient core."
+  },
+  {
+    "id": "M1",
+    "label": "Marx: accumulation depends on wage labor and private control",
+    "family": "theory",
+    "kind": "descriptive",
+    "status": "conditional",
+    "source_lines": [
+      25,
+      27,
+      29,
+      33,
+      35,
+      37
+    ],
+    "text": "Capitalism is a historically specific social relation in which private control of production, wage labor, commodity exchange, and accumulation form a reinforcing structure.",
+    "supports": [
+      "X1",
+      "X2",
+      "X3"
+    ],
+    "challenges": [
+      "H1",
+      "I1",
+      "R1"
+    ],
+    "assumptions": [
+      "Labor theory of value",
+      "Workers lack independent access to subsistence",
+      "Competition compels accumulation"
+    ],
+    "falsifier": "Find a capitalist regime with the specified wage/property/exchange structure but without the alleged accumulation dynamic, or a non-capitalist regime with the same structure."
+  },
+  {
+    "id": "W1",
+    "label": "Weber: capitalist durability is culturally motivated",
+    "family": "theory",
+    "kind": "causal",
+    "status": "conditional",
+    "source_lines": [
+      43
+    ],
+    "text": "Modern capitalism is sustained by an internalized cultural spirit, historically linked to Protestant work and saving, rather than by material relations alone.",
+    "supports": [
+      "X2"
+    ],
+    "challenges": [
+      "M1",
+      "S1"
+    ],
+    "assumptions": [
+      "Cultural internalization causes durable accumulation",
+      "The Roman case is a meaningful comparison"
+    ],
+    "falsifier": "Demonstrate comparable capitalist accumulation without the proposed cultural mechanism, or the mechanism without capitalist accumulation."
+  },
+  {
+    "id": "S1",
+    "label": "Schumpeter: entrepreneurship drives creative destruction",
+    "family": "theory",
+    "kind": "causal",
+    "status": "conditional",
+    "source_lines": [
+      47
+    ],
+    "text": "Risk-taking entrepreneurs combine factors of production and drive recurring innovation that displaces older methods and values.",
+    "supports": [
+      "X2",
+      "X3"
+    ],
+    "challenges": [
+      "M1"
+    ],
+    "assumptions": [
+      "Entrepreneurial agency is analytically distinct from competition",
+      "Innovation produces both abundance and social fatigue"
+    ],
+    "falsifier": "Compare innovation regimes with and without entrepreneurial coordination while holding capital, labor, and technology constant."
+  },
+  {
+    "id": "H1",
+    "label": "Hayek/Friedman: free markets and property yield efficiency",
+    "family": "defense",
+    "kind": "normative-causal",
+    "status": "conditional",
+    "source_lines": [
+      51,
+      83,
+      95,
+      113
+    ],
+    "text": "Private property and relatively unfettered markets coordinate dispersed information, promote preference satisfaction, and protect economic or political freedom.",
+    "supports": [
+      "WEL1",
+      "EFF1",
+      "FRE1",
+      "POL1"
+    ],
+    "challenges": [
+      "M1",
+      "P1",
+      "X1"
+    ],
+    "assumptions": [
+      "Prices aggregate relevant information",
+      "Exchange is sufficiently voluntary",
+      "Political power is decentralized rather than concentrated"
+    ],
+    "falsifier": "A planner, regulated market, or alternative ownership regime must outperform the market on the specified efficiency/freedom metric under comparable conditions."
+  },
+  {
+    "id": "I1",
+    "label": "Institutions constitute markets rather than merely constrain them",
+    "family": "theory",
+    "kind": "constitutive",
+    "status": "conditional",
+    "source_lines": [
+      55
+    ],
+    "text": "Property rights, rule of law, and political institutions are prerequisites of capitalist markets and their healthy operation.",
+    "supports": [
+      "H1",
+      "P1"
+    ],
+    "challenges": [],
+    "assumptions": [
+      "Institutional rules are constitutive rather than external",
+      "The relevant institutions can be specified and compared"
+    ],
+    "falsifier": "Identify a functioning capitalist market with no legal-political institutional substrate, or show institutions are irrelevant to its performance."
+  },
+  {
+    "id": "P1",
+    "label": "Polanyi: land, labor, and money are fictitious commodities",
+    "family": "theory",
+    "kind": "causal",
+    "status": "conditional",
+    "source_lines": [
+      59,
+      61,
+      63
+    ],
+    "text": "Generalized markets require state-mediated commodification of things not originally produced as commodities, which generates social countermovements.",
+    "supports": [
+      "I1",
+      "X3",
+      "R2"
+    ],
+    "challenges": [
+      "H1",
+      "D1"
+    ],
+    "assumptions": [
+      "Commodification requires political action",
+      "Market exposure produces recurring protective responses"
+    ],
+    "falsifier": "Find generalized market exchange without state-mediated commodification or without the predicted countermovement."
+  },
+  {
+    "id": "K1",
+    "label": "Keynes: investment depends on uncertain expectations and liquidity preference",
+    "family": "theory",
+    "kind": "causal",
+    "status": "conditional",
+    "source_lines": [
+      69
+    ],
+    "text": "Investment and economic reproduction depend on expectations, money, credit, and the choice between productive investment and liquid assets.",
+    "supports": [
+      "R1",
+      "EFF1"
+    ],
+    "challenges": [
+      "H1"
+    ],
+    "assumptions": [
+      "Liquidity preference is systematically underproductive",
+      "Money is not reducible to a neutral medium"
+    ],
+    "falsifier": "Show that investment is governed independently of expectations/liquidity, or that liquidity preference does not affect reproduction under relevant conditions."
+  },
+  {
+    "id": "WEL1",
+    "label": "Markets can raise welfare and benefit the worst off",
+    "family": "defense",
+    "kind": "normative-causal",
+    "status": "conditional",
+    "source_lines": [
+      79
+    ],
+    "text": "Competitive markets and division of labor can maximize wealth, with sufficient redistribution or growth reaching everyone, including the worst off.",
+    "supports": [
+      "H1",
+      "EFF1"
+    ],
+    "challenges": [
+      "R2",
+      "X2"
+    ],
+    "assumptions": [
+      "Growth translates into broad welfare gains",
+      "The comparison class includes viable alternatives"
+    ],
+    "falsifier": "A comparable non-market arrangement produces greater welfare for the worst off, or growth systematically fails to reach them."
+  },
+  {
+    "id": "EFF1",
+    "label": "Markets process dispersed information more effectively than planners",
+    "family": "defense",
+    "kind": "epistemic",
+    "status": "conditional",
+    "source_lines": [
+      83
+    ],
+    "text": "Market prices and decentralized exchange can coordinate information that no central planner can fully possess.",
+    "supports": [
+      "H1"
+    ],
+    "challenges": [
+      "P1",
+      "R2"
+    ],
+    "assumptions": [
+      "Relevant information is distributed",
+      "Price signals are not systematically distorted",
+      "Coordination is the correct objective"
+    ],
+    "falsifier": "A non-market institution consistently coordinates the same dispersed information better at comparable cost."
+  },
+  {
+    "id": "FRE1",
+    "label": "Market exchange is voluntary and protects negative liberty",
+    "family": "defense",
+    "kind": "normative",
+    "status": "contested",
+    "source_lines": [
+      95
+    ],
+    "text": "Markets minimize coercive interference and allow individuals to pursue their own ends.",
+    "supports": [
+      "H1",
+      "POL1"
+    ],
+    "challenges": [
+      "X1",
+      "X2"
+    ],
+    "assumptions": [
+      "Formal consent tracks substantive freedom",
+      "Workers have reasonable alternatives"
+    ],
+    "falsifier": "Show systematic coercion, domination, or lack of meaningful exit within otherwise voluntary market contracts."
+  },
+  {
+    "id": "POL1",
+    "label": "Economic freedom disperses political power",
+    "family": "defense",
+    "kind": "causal",
+    "status": "contested",
+    "source_lines": [
+      113
+    ],
+    "text": "Separating economic and political power helps protect political freedom and expression.",
+    "supports": [
+      "FRE1"
+    ],
+    "challenges": [
+      "R2",
+      "X2"
+    ],
+    "assumptions": [
+      "Economic wealth remains sufficiently dispersed",
+      "Private power does not capture political institutions"
+    ],
+    "falsifier": "Show that capitalist economic concentration predictably undermines the fair value of political liberty."
+  },
+  {
+    "id": "X1",
+    "label": "Capitalism exploits labor through surplus extraction",
+    "family": "critique",
+    "kind": "normative-causal",
+    "status": "contested",
+    "source_lines": [
+      153,
+      157,
+      159,
+      163
+    ],
+    "text": "Capitalist production extracts value from workers under conditions that may be unequal, unfair, or disrespectfully advantage-taking.",
+    "supports": [
+      "M1",
+      "X2",
+      "X3"
+    ],
+    "challenges": [
+      "H1",
+      "N1"
+    ],
+    "assumptions": [
+      "The surplus is not justified as rent or entrepreneurial input",
+      "Workers lack meaningful alternatives",
+      "The relevant account of wrongness is specified"
+    ],
+    "falsifier": "Show that workers have genuine alternatives and that the residual is justified by a fair account of productive contribution, or reject the proposed wrong-making condition."
+  },
+  {
+    "id": "X2",
+    "label": "Capitalism structurally dominates workers or producers",
+    "family": "critique",
+    "kind": "normative-causal",
+    "status": "contested",
+    "source_lines": [
+      171,
+      173,
+      175,
+      179
+    ],
+    "text": "Ownership and market dependence can give employers, capitalists, or impersonal market forces unilateral or arbitrary power over productive activity and subsistence.",
+    "supports": [
+      "X1",
+      "R2"
+    ],
+    "challenges": [
+      "H1",
+      "N1"
+    ],
+    "assumptions": [
+      "Domination requires meaningful exit/control",
+      "The locus is interactional, structural, dependent, or impersonal"
+    ],
+    "falsifier": "Demonstrate reciprocal control, meaningful exit, and non-arbitrary governance across the relevant employment or market relation."
+  },
+  {
+    "id": "X3",
+    "label": "Capitalism commodifies and destabilizes social reproduction/nature",
+    "family": "critique",
+    "kind": "systemic",
+    "status": "conditional",
+    "source_lines": [
+      11,
+      27,
+      59,
+      63
+    ],
+    "text": "Market organization depends on care, nature, and political institutions while representing them as autonomous or commodifiable, producing recurring social resistance and ecological strain.",
+    "supports": [
+      "M1",
+      "P1"
+    ],
+    "challenges": [
+      "H1",
+      "N1"
+    ],
+    "assumptions": [
+      "Dependence is necessary and systemic rather than accidental",
+      "The costs are normatively objectionable"
+    ],
+    "falsifier": "Show that capitalist reproduction can be sustained without the alleged externalized care/nature/political supports or that the supports are not harmed."
+  },
+  {
+    "id": "R1",
+    "label": "Capitalism has endogenous crisis or self-undermining tendencies",
+    "family": "critique",
+    "kind": "functional",
+    "status": "conditional",
+    "source_lines": [
+      139
+    ],
+    "text": "Capitalist dynamics can undermine the conditions of their own functioning through accumulation, financial instability, unemployment, or underinvestment.",
+    "supports": [
+      "M1",
+      "K1",
+      "X3"
+    ],
+    "challenges": [
+      "H1"
+    ],
+    "assumptions": [
+      "The system's proper function is independently specified",
+      "The tendency is systematic rather than episodic"
+    ],
+    "falsifier": "Show robust counterexamples across capitalist regimes, or specify a stable mechanism that prevents the predicted failure."
+  },
+  {
+    "id": "R2",
+    "label": "Welfare-state capitalism cannot secure justice",
+    "family": "critique",
+    "kind": "normative-causal",
+    "status": "contested",
+    "source_lines": [
+      143,
+      145,
+      149
+    ],
+    "text": "Large private inequalities can undermine fair opportunity, political equality, reciprocity, and self-respect even when a social minimum is guaranteed.",
+    "supports": [
+      "X2",
+      "POL1"
+    ],
+    "challenges": [
+      "WEL1",
+      "H1",
+      "N1"
+    ],
+    "assumptions": [
+      "Wealth converts into political influence",
+      "The inequality is institutional rather than contingent",
+      "Justice requires more than a floor"
+    ],
+    "falsifier": "Show a welfare-state capitalist arrangement that preserves fair opportunity, political equality, reciprocity, and self-respect despite large private inequality."
+  },
+  {
+    "id": "N1",
+    "label": "Critiques must establish distinctiveness, causality, systematicity, and perhaps non-contingency",
+    "family": "meta",
+    "kind": "methodological",
+    "status": "framing",
+    "source_lines": [
+      135
+    ],
+    "text": "A critique of capitalism is stronger when it shows the defect is distinctive to capitalism, caused by it, systematic, and not merely contingent.",
+    "supports": [
+      "R1",
+      "R2",
+      "X1",
+      "X2",
+      "X3"
+    ],
+    "challenges": [],
+    "assumptions": [
+      "Capitalism has a stable target definition",
+      "The standards of critique are accepted"
+    ],
+    "falsifier": "Show the alleged defect occurs independently of capitalism, or that the critique standards exclude influential critiques without good reason."
+  }
+]

@@ -1,0 +1,367 @@
+[
+  {
+    "source": "D1",
+    "target": "M1",
+    "relation": "supports"
+  },
+  {
+    "source": "D1",
+    "target": "I1",
+    "relation": "supports"
+  },
+  {
+    "source": "D1",
+    "target": "P1",
+    "relation": "supports"
+  },
+  {
+    "source": "M1",
+    "target": "X1",
+    "relation": "supports"
+  },
+  {
+    "source": "M1",
+    "target": "X2",
+    "relation": "supports"
+  },
+  {
+    "source": "M1",
+    "target": "X3",
+    "relation": "supports"
+  },
+  {
+    "source": "M1",
+    "target": "H1",
+    "relation": "challenges"
+  },
+  {
+    "source": "M1",
+    "target": "I1",
+    "relation": "challenges"
+  },
+  {
+    "source": "M1",
+    "target": "R1",
+    "relation": "challenges"
+  },
+  {
+    "source": "W1",
+    "target": "X2",
+    "relation": "supports"
+  },
+  {
+    "source": "W1",
+    "target": "M1",
+    "relation": "challenges"
+  },
+  {
+    "source": "W1",
+    "target": "S1",
+    "relation": "challenges"
+  },
+  {
+    "source": "S1",
+    "target": "X2",
+    "relation": "supports"
+  },
+  {
+    "source": "S1",
+    "target": "X3",
+    "relation": "supports"
+  },
+  {
+    "source": "S1",
+    "target": "M1",
+    "relation": "challenges"
+  },
+  {
+    "source": "H1",
+    "target": "WEL1",
+    "relation": "supports"
+  },
+  {
+    "source": "H1",
+    "target": "EFF1",
+    "relation": "supports"
+  },
+  {
+    "source": "H1",
+    "target": "FRE1",
+    "relation": "supports"
+  },
+  {
+    "source": "H1",
+    "target": "POL1",
+    "relation": "supports"
+  },
+  {
+    "source": "H1",
+    "target": "M1",
+    "relation": "challenges"
+  },
+  {
+    "source": "H1",
+    "target": "P1",
+    "relation": "challenges"
+  },
+  {
+    "source": "H1",
+    "target": "X1",
+    "relation": "challenges"
+  },
+  {
+    "source": "I1",
+    "target": "H1",
+    "relation": "supports"
+  },
+  {
+    "source": "I1",
+    "target": "P1",
+    "relation": "supports"
+  },
+  {
+    "source": "P1",
+    "target": "I1",
+    "relation": "supports"
+  },
+  {
+    "source": "P1",
+    "target": "X3",
+    "relation": "supports"
+  },
+  {
+    "source": "P1",
+    "target": "R2",
+    "relation": "supports"
+  },
+  {
+    "source": "P1",
+    "target": "H1",
+    "relation": "challenges"
+  },
+  {
+    "source": "P1",
+    "target": "D1",
+    "relation": "challenges"
+  },
+  {
+    "source": "K1",
+    "target": "R1",
+    "relation": "supports"
+  },
+  {
+    "source": "K1",
+    "target": "EFF1",
+    "relation": "supports"
+  },
+  {
+    "source": "K1",
+    "target": "H1",
+    "relation": "challenges"
+  },
+  {
+    "source": "WEL1",
+    "target": "H1",
+    "relation": "supports"
+  },
+  {
+    "source": "WEL1",
+    "target": "EFF1",
+    "relation": "supports"
+  },
+  {
+    "source": "WEL1",
+    "target": "R2",
+    "relation": "challenges"
+  },
+  {
+    "source": "WEL1",
+    "target": "X2",
+    "relation": "challenges"
+  },
+  {
+    "source": "EFF1",
+    "target": "H1",
+    "relation": "supports"
+  },
+  {
+    "source": "EFF1",
+    "target": "P1",
+    "relation": "challenges"
+  },
+  {
+    "source": "EFF1",
+    "target": "R2",
+    "relation": "challenges"
+  },
+  {
+    "source": "FRE1",
+    "target": "H1",
+    "relation": "supports"
+  },
+  {
+    "source": "FRE1",
+    "target": "POL1",
+    "relation": "supports"
+  },
+  {
+    "source": "FRE1",
+    "target": "X1",
+    "relation": "challenges"
+  },
+  {
+    "source": "FRE1",
+    "target": "X2",
+    "relation": "challenges"
+  },
+  {
+    "source": "POL1",
+    "target": "FRE1",
+    "relation": "supports"
+  },
+  {
+    "source": "POL1",
+    "target": "R2",
+    "relation": "challenges"
+  },
+  {
+    "source": "POL1",
+    "target": "X2",
+    "relation": "challenges"
+  },
+  {
+    "source": "X1",
+    "target": "M1",
+    "relation": "supports"
+  },
+  {
+    "source": "X1",
+    "target": "X2",
+    "relation": "supports"
+  },
+  {
+    "source": "X1",
+    "target": "X3",
+    "relation": "supports"
+  },
+  {
+    "source": "X1",
+    "target": "H1",
+    "relation": "challenges"
+  },
+  {
+    "source": "X1",
+    "target": "N1",
+    "relation": "challenges"
+  },
+  {
+    "source": "X2",
+    "target": "X1",
+    "relation": "supports"
+  },
+  {
+    "source": "X2",
+    "target": "R2",
+    "relation": "supports"
+  },
+  {
+    "source": "X2",
+    "target": "H1",
+    "relation": "challenges"
+  },
+  {
+    "source": "X2",
+    "target": "N1",
+    "relation": "challenges"
+  },
+  {
+    "source": "X3",
+    "target": "M1",
+    "relation": "supports"
+  },
+  {
+    "source": "X3",
+    "target": "P1",
+    "relation": "supports"
+  },
+  {
+    "source": "X3",
+    "target": "H1",
+    "relation": "challenges"
+  },
+  {
+    "source": "X3",
+    "target": "N1",
+    "relation": "challenges"
+  },
+  {
+    "source": "R1",
+    "target": "M1",
+    "relation": "supports"
+  },
+  {
+    "source": "R1",
+    "target": "K1",
+    "relation": "supports"
+  },
+  {
+    "source": "R1",
+    "target": "X3",
+    "relation": "supports"
+  },
+  {
+    "source": "R1",
+    "target": "H1",
+    "relation": "challenges"
+  },
+  {
+    "source": "R2",
+    "target": "X2",
+    "relation": "supports"
+  },
+  {
+    "source": "R2",
+    "target": "POL1",
+    "relation": "supports"
+  },
+  {
+    "source": "R2",
+    "target": "WEL1",
+    "relation": "challenges"
+  },
+  {
+    "source": "R2",
+    "target": "H1",
+    "relation": "challenges"
+  },
+  {
+    "source": "R2",
+    "target": "N1",
+    "relation": "challenges"
+  },
+  {
+    "source": "N1",
+    "target": "R1",
+    "relation": "supports"
+  },
+  {
+    "source": "N1",
+    "target": "R2",
+    "relation": "supports"
+  },
+  {
+    "source": "N1",
+    "target": "X1",
+    "relation": "supports"
+  },
+  {
+    "source": "N1",
+    "target": "X2",
+    "relation": "supports"
+  },
+  {
+    "source": "N1",
+    "target": "X3",
+    "relation": "supports"
+  }
+]
