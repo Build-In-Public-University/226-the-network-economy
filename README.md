@@ -34,6 +34,9 @@ Outputs:
 - `data/argument-map.svg` — rendered argument graph
 - `data/time-violence-alignment.json` — SEP-to-our-framework alignment ledger with falsifiers
 - `time-violence-alignment.md` — synthesis of the alignment and proposed instrument
+- `data/multi-resource-model.json` — idealized labor-time, money-return, and network-economy comparison
+- `data/multi-resource-model.dot` — visual model source
+- `multi-resource-model.md` — comparison and test design
 - `data/sections.json` — parsed source heading structure
 - `data/report.md` — human-readable report
 

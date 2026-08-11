@@ -1,0 +1,16 @@
+digraph multi_resource_model {
+  graph [rankdir=LR, bgcolor="white"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica"];
+  capitalism [label="Capitalism\nmoney return / liquidity", fillcolor="#f7d6d0"];
+  communism [label="Communism (idealized)\nlabor time / direct allocation", fillcolor="#d9e8fb"];
+  network [label="Network economy (proposed)\nrelationship: money × time × energy × information × future options", fillcolor="#dff0d8"];
+  runaway [label="Runaway / time-violence residual\nlocal gain, distributed delayed burden", shape=ellipse, fillcolor="#fff2cc"];
+  future [label="Future-protective constraint\nfuture weight ≥ past weight", shape=ellipse, fillcolor="#eadcf8"];
+  capitalism -> runaway [label="exports omitted costs"];
+  communism -> network [label="retains labor visibility; adds plural metrics"];
+  capitalism -> network [label="retains price signal; adds network-temporal costs"];
+  runaway -> network [label="measure lag, burden transfer, option loss"];
+  future -> network [label="govern intertemporal objective"];
+  network -> capitalism [label="tests price completeness", style=dashed];
+  network -> communism [label="tests plan information / exit", style=dashed];
+}

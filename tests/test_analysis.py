@@ -25,12 +25,21 @@ class AnalysisTests(unittest.TestCase):
 
     def test_claims_have_falsifiers(self):
         self.assertTrue(all(c.falsifier.strip() for c in seed_claims()))
+
     def test_alignment_ledger_is_structured_and_falsifiable(self):
         rows = json.loads((ROOT / "data/time-violence-alignment.json").read_text())
         self.assertEqual(len(rows), 10)
         self.assertTrue(all(row["sep_claims"] for row in rows))
         self.assertTrue(all(row["falsifier"].strip() for row in rows))
         self.assertIn("open_hypothesis", {row["alignment"] for row in rows})
+
+    def test_multi_resource_model_has_three_distinct_baselines(self):
+        model = json.loads((ROOT / "data/multi-resource-model.json").read_text())
+        self.assertEqual({s["id"] for s in model["systems"]}, {
+            "communism_idealized", "capitalism_idealized", "network_economy_proposed"
+        })
+        self.assertGreaterEqual(len(model["falsifiers"]), 4)
+        self.assertIn("future weight ≥ past weight", (ROOT / "multi-resource-model.md").read_text())
 
 
 if __name__ == "__main__":

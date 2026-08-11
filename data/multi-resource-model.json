@@ -1,0 +1,72 @@
+{
+  "model_name": "multi-resource coordination model",
+  "status": "proposed_analytic_model",
+  "warning": "Communism and capitalism are idealized coordination functions here, not complete descriptions of all historical regimes.",
+  "dimensions": [
+    "primary_optimization_signal",
+    "scarce_resource_made_legible",
+    "coordination_unit",
+    "time_horizon",
+    "network_visibility",
+    "typical_externality",
+    "failure_mode",
+    "freedom_risk",
+    "correction_mechanism"
+  ],
+  "systems": [
+    {
+      "id": "communism_idealized",
+      "label": "Communism / labor-time coordination",
+      "primary_optimization_signal": "socially necessary labor time, effort, or direct time allocation",
+      "scarce_resource_made_legible": "human labor and available working time",
+      "coordination_unit": "collective plan, common ownership, or direct allocation",
+      "time_horizon": "potentially long, but dependent on planning and political institutions",
+      "network_visibility": "can see shared labor requirements better than isolated market actors, but may lose local preference and tacit information",
+      "typical_externality": "unpaid political, administrative, care, or dissent costs hidden inside the collective plan",
+      "failure_mode": "bureaucratic rigidity, informational compression, coercive allocation, or labor-time reductionism",
+      "freedom_risk": "the collective can become the employer/planner with weak exit and weak contestability",
+      "correction_mechanism": "participatory revision, local autonomy, plural metrics, contestable plans, and protected exit"
+    },
+    {
+      "id": "capitalism_idealized",
+      "label": "Capitalism / money-return coordination",
+      "primary_optimization_signal": "money return, profit, liquidity, or asset appreciation",
+      "scarce_resource_made_legible": "purchasing power and investable capital",
+      "coordination_unit": "private property, contract, price, and investment decision",
+      "time_horizon": "often biased toward realizable present/future cash returns",
+      "network_visibility": "prices aggregate some dispersed information, but may omit delayed, non-priced, or displaced costs",
+      "typical_externality": "care, ecological recovery, public infrastructure, unpaid coordination, and future option loss",
+      "failure_mode": "runaway accumulation, short-horizon optimization, concentration, crisis, and burden export",
+      "freedom_risk": "formal consent with dependence, lock-in, unequal exit, or employer/asset-owner domination",
+      "correction_mechanism": "regulation, taxation, public provision, labor power, redistribution, and institutional redesign"
+    },
+    {
+      "id": "network_economy_proposed",
+      "label": "Network economy / multi-resource relation pricing",
+      "primary_optimization_signal": "joint preservation of money, time, energy, information, and future option sets",
+      "scarce_resource_made_legible": "the relationship between resources, not one resource alone",
+      "coordination_unit": "receipted relationships, distributed ledgers, bounded local autonomy, and network-temporal feedback",
+      "time_horizon": "explicitly intertemporal; future recipients are included in the objective",
+      "network_visibility": "attempts to measure receiver-side and delayed costs through network-relative observation",
+      "typical_externality": "residuals are the costs that remain outside local metrics after network and temporal accounting",
+      "failure_mode": "measurement overload, false precision, surveillance, governance capture, or unbounded system scope",
+      "freedom_risk": "the metric layer can become a new planner unless assumptions, consent, exit, and contestability are explicit",
+      "correction_mechanism": "multi-objective accounting, adversarial residual search, future-protective constraints, and reversible governance"
+    }
+  ],
+  "relationships": [
+    {"source": "capitalism_idealized", "target": "network_economy_proposed", "relation": "adds omitted temporal and network costs to money coordination"},
+    {"source": "communism_idealized", "target": "network_economy_proposed", "relation": "retains direct labor/time visibility while rejecting labor-time sufficiency"},
+    {"source": "network_economy_proposed", "target": "capitalism_idealized", "relation": "tests whether price signals encode delayed and distributed costs"},
+    {"source": "network_economy_proposed", "target": "communism_idealized", "relation": "tests whether collective plans encode local information, dissent, and care burden"}
+  ],
+  "core_hypothesis": "A network economy is not simply capitalism plus more variables. It is a proposed accounting regime in which the object of optimization is a relationship among money, time, energy, information, and future option sets.",
+  "necessary_test": "The network model must outperform single-resource baselines on a held-out burden-allocation task without increasing coercion, unmeasured administrative burden, or false precision.",
+  "falsifiers": [
+    "A money-only or labor-time-only baseline captures the same delayed and distributed burdens at equal or lower measurement cost.",
+    "Adding resource dimensions does not improve held-out burden prediction or allocation quality.",
+    "The network metric's apparent gains disappear under time-shuffled, node-shuffled, or boundary-perturbed controls.",
+    "The model improves accounting but increases surveillance, administrative labor, or planner power beyond the declared threshold.",
+    "Future-protective weighting systematically worsens present and future outcomes under a preregistered objective."
+  ]
+}
