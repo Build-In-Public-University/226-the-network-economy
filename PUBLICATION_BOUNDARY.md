@@ -4,7 +4,7 @@ Status: publicly pushed and independently read back.
 
 Destination: https://github.com/Build-In-Public-University/226-the-network-economy # git-secret-ignore
 
-Published commit: `f63ecc1d7dd61f5052346a56fcc0638106fd1f48`
+Published branch: `main` (exact remote SHA verified with `git ls-remote`; see the release receipt in the publication log)
 
 Included:
 
