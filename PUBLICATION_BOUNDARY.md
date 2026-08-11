@@ -1,6 +1,10 @@
 # Publication boundary
 
-Status: prepared locally; not externally pushed.
+Status: publicly pushed and independently read back.
+
+Destination: https://github.com/Build-In-Public-University/226-the-network-economy # git-secret-ignore
+
+Published commit: `988d223415d16e51f70122aafef2fa650c8517a`
 
 Included:
 
