@@ -31,6 +31,9 @@ Outputs:
 - `data/claims.json` — curated claim ledger with status, assumptions, links, and falsifiers
 - `data/edges.json` — machine-readable support/challenge edges
 - `data/argument-map.dot` — Graphviz graph source
+- `data/argument-map.svg` — rendered argument graph
+- `data/time-violence-alignment.json` — SEP-to-our-framework alignment ledger with falsifiers
+- `time-violence-alignment.md` — synthesis of the alignment and proposed instrument
 - `data/sections.json` — parsed source heading structure
 - `data/report.md` — human-readable report
 

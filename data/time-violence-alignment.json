@@ -1,0 +1,102 @@
+[
+  {
+    "id": "A1",
+    "sep_claims": ["D1", "N1"],
+    "ours": "The target is not capitalism as one fixed object, but a family of accumulation and coordination regimes whose harms may appear at different temporal and network scales.",
+    "alignment": "strong_structural",
+    "what_sep_supports": "The entry explicitly says capitalism is definitionally contested and that critiques must establish distinctiveness, causality, systematicity, and possibly non-contingency.",
+    "extension": "Time violence adds an observation rule: define the system boundary, time horizon, affected nodes, and receiver-side measurement before calling a cost an externality.",
+    "risk": "If the system boundary can expand without limit, every harm becomes capitalism's harm and the claim becomes unfalsifiable.",
+    "falsifier": "A frozen boundary and matched comparison show the alleged temporal/network residual is no larger than ordinary measurement noise or exists independently of the regime."
+  },
+  {
+    "id": "A2",
+    "sep_claims": ["M1", "R1"],
+    "ours": "Runaway systems convert local optimization into accumulated future burden through positive feedback: accumulation increases throughput, throughput increases coordination load, and deferred repair increases later load.",
+    "alignment": "mechanism_extension",
+    "what_sep_supports": "The Marxian account links accumulation, competition, productivity pressure, and crisis tendencies.",
+    "extension": "We add a dynamic state variable for inherited unresolved burden and test whether local gains predict later system-wide repair, delay, or exclusion costs.",
+    "risk": "The phrase runaway can become a metaphor unless the feedback loop, lag, and stopping condition are specified.",
+    "falsifier": "Across comparable systems, increasing local accumulation does not predict later burden after controlling for scale, shocks, and baseline institutional capacity."
+  },
+  {
+    "id": "A3",
+    "sep_claims": ["P1", "X3"],
+    "ours": "Time violence is often an externalized cost: the actor improving a local metric exports waiting, care, ecological recovery, cognitive load, or coordination work to other nodes or future cohorts.",
+    "alignment": "strong",
+    "what_sep_supports": "Polanyi and social-reproduction critiques already describe dependence on land, labor, care, nature, money, and political institutions while presenting markets as autonomous.",
+    "extension": "Network relativity says the cost may be invisible at the emitting node because the relevant observation is distributed across receivers and delayed in time.",
+    "risk": "Not every distributed cost is oppression. We need power asymmetry, avoidability, exposure, and lack of consent or exit.",
+    "falsifier": "The cost is fully internalized by the decision-maker, equally distributed, reversible, and subject to meaningful consent or exit."
+  },
+  {
+    "id": "A4",
+    "sep_claims": ["FRE1", "X2"],
+    "ours": "Formal choice at t0 can coexist with constrained temporal freedom at t1: a contract or system decision may be voluntary locally while narrowing future options through dependency, delay, or accumulated switching cost.",
+    "alignment": "direct_tension",
+    "what_sep_supports": "The entry places the voluntary-cooperation defense beside the objection that workers may lack meaningful alternatives and may be subject to domination.",
+    "extension": "Measure freedom as an option-set trajectory, not only as consent at the moment of exchange.",
+    "risk": "Option-set reduction needs a counterfactual baseline; otherwise all irreversible choices look oppressive.",
+    "falsifier": "Under a preregistered baseline, the decision does not reduce future options, exit remains feasible, and affected parties retain reciprocal control."
+  },
+  {
+    "id": "A5",
+    "sep_claims": ["EFF1", "H1"],
+    "ours": "A market can be locally efficient while globally inefficient when its price system omits delayed, displaced, or network-level costs.",
+    "alignment": "challenge_to_metric",
+    "what_sep_supports": "Hayekian arguments rely on prices processing dispersed information and coordinating preferences.",
+    "extension": "The relevant question becomes: whose information arrives in the price, at what latency, and who bears information acquisition and repair costs?",
+    "risk": "This does not refute markets in general; it targets a price system with omitted or delayed signals.",
+    "falsifier": "A complete-enough price or institutional signal captures the relevant future/network costs with acceptable latency and changes behavior before irreversible harm."
+  },
+  {
+    "id": "A6",
+    "sep_claims": ["K1", "R1"],
+    "ours": "Liquidity preference and short-horizon return can reward actions whose immediate value rises as their future repair burden rises.",
+    "alignment": "mechanism_extension",
+    "what_sep_supports": "The Keynesian account makes expectations, liquidity, investment, and underinvestment central to reproduction.",
+    "extension": "Add a temporal accounting rule: reward streams should include the option value and burden imposed on later states, not only present cash flow.",
+    "risk": "‘Reward the future’ is underspecified unless future cohorts, discounting, uncertainty, and governance are explicit.",
+    "falsifier": "A defined intertemporal ledger shows that the proposed reward rule systematically misallocates resources relative to a transparent social objective."
+  },
+  {
+    "id": "A7",
+    "sep_claims": ["R2", "POL1"],
+    "ours": "Wealth concentration can be a temporal control mechanism: present ownership buys influence over which future options exist and whose waiting or repair costs count.",
+    "alignment": "strong_extension",
+    "what_sep_supports": "Rawlsian and republican critiques connect wealth inequality to political influence, opportunity, and domination.",
+    "extension": "Track control over future option sets and agenda-setting, not only current income or asset distribution.",
+    "risk": "Influence is not automatically illegitimate; the mechanism and affected population must be evidenced.",
+    "falsifier": "Concentrated ownership does not change future decision rights, agenda access, or burden allocation after matched institutional controls."
+  },
+  {
+    "id": "A8",
+    "sep_claims": ["X1", "X2"],
+    "ours": "Oppression can be produced by a mismatch between where the benefit is booked and where the time/coordination burden is paid.",
+    "alignment": "strong_extension",
+    "what_sep_supports": "Exploitation and domination accounts already distinguish extraction, unfair advantage, power, dependence, and disrespect.",
+    "extension": "Use a burden-transfer ledger: beneficiary node, burdened node, time window, reversibility, and exit/control conditions.",
+    "risk": "A burden transfer is not necessarily exploitation; wrongness still needs an account.",
+    "falsifier": "The apparent mismatch disappears under complete accounting, or the burdened party is fairly compensated and retains meaningful control."
+  },
+  {
+    "id": "A9",
+    "sep_claims": ["WEL1", "R2"],
+    "ours": "A welfare gain measured in the present can be unjust if it is purchased by reducing the future welfare and agency of people absent from the decision.",
+    "alignment": "normative_reframing",
+    "what_sep_supports": "The entry presents welfare and sufficientarian defenses alongside critiques of inequality, opportunity, self-respect, and political liberty.",
+    "extension": "The welfare ledger must include future affected cohorts and non-local network costs, with a declared discount rule.",
+    "risk": "Giving the future equal weight does not solve uncertainty or conflicts between future groups.",
+    "falsifier": "A transparent future-inclusive welfare measure reverses the proposed judgment or shows that the future burden is immaterial."
+  },
+  {
+    "id": "A10",
+    "sep_claims": ["N1"],
+    "ours": "‘Reward the future at least as much as the past’ is a normative design constraint, not yet an empirical theorem.",
+    "alignment": "open_hypothesis",
+    "what_sep_supports": "The SEP entry separates functional, distributive, exploitation, domination, and legitimacy critiques rather than treating one value as decisive.",
+    "extension": "Make the principle testable through intertemporal allocation experiments with frozen discounting, burden ledgers, and reversal criteria.",
+    "risk": "The principle may be incoherent when future populations, probabilities, or identities are indeterminate; equal weighting can also impose present harms.",
+    "falsifier": "A specified decision problem shows that equal-or-greater future weighting produces systematically worse outcomes under the declared objective and constraints."
+  }
+]
