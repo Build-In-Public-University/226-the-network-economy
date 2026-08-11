@@ -33,6 +33,15 @@ class AnalysisTests(unittest.TestCase):
         self.assertTrue(all(row["falsifier"].strip() for row in rows))
         self.assertIn("open_hypothesis", {row["alignment"] for row in rows})
 
+    def test_review_artifacts_exist_and_human_judge_is_unfilled(self):
+        pro = (ROOT / "reviews/pro-review.md").read_text()
+        con = (ROOT / "reviews/con-review.md").read_text()
+        judge = (ROOT / "reviews/HUMAN-JUDGE.md").read_text()
+        self.assertIn("## Executive case", pro)
+        self.assertIn("## Executive case", con)
+        self.assertIn("Human verdict", judge)
+        self.assertIn("Status: pending human adjudication", judge)
+
     def test_multi_resource_model_has_three_distinct_baselines(self):
         model = json.loads((ROOT / "data/multi-resource-model.json").read_text())
         self.assertEqual({s["id"] for s in model["systems"]}, {
